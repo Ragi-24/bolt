@@ -1,0 +1,189 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+ .basic-option {
+  background-color: #000;
+  padding: 0 35px;
+} 
+
+.body {
+  font-family: 'Lato', 'Raleway';
+}
+
+.inner {
+  box-sizing: border-box;
+  padding: 0 200px;
+}
+
+/* header */
+
+.header {
+  background-color: #fff;
+  height: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.header__icon-bolt {
+  float: left;
+  font-size: 2.6em;
+}
+
+.header__contact-box {
+  background-color: #74cfae;
+  color: #fff;
+  float: right;
+  font-size: 12px;
+  margin-left: 250px;
+  padding: 14px 12px;
+}
+
+/* main */
+
+/* main__theme */
+.theme {
+  background-color: #f2f2f2;
+  height: 640px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.theme__main {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.theme__sub {
+  color: #c0c0c0;
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* main__caption */
+.caption {
+  padding-top: 50px;
+  background-color: #74cfae;
+}
+
+.caption__iphone-img {
+  float: left;
+  margin: 0 100px;
+}
+
+.caption__wwcd__title {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.caption__wwcd__sentence {
+  color: #fff;
+  font-size: 20px;
+}
+
+/* main__photos */
+.photos {
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.photos__title {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+.photos__main {
+  display: flex;
+  flex: initial;
+  flex-wrap: wrap;
+  padding: 40px 89px 90px;  /*text-alignでは中央寄せにならず実数値でとった */
+}
+
+.photos article .photos__main :nth-child(n+4) {
+  padding-top: 80px;
+}
+
+.photos article .photos__main :nth-child(3n-1) {
+  margin: 0 100px;
+}
+
+. {
+
+}
+
+.photos__email-send-box {
+  background-color: #74cfae;
+  color: #fff;
+  float: right;
+  font-size: 12px;
+  margin-left: 90px;
+  padding: 14px 20px;
+
+}
+
+.photos__sentence {
+  color: #333;
+}
+
+/* main__description */
+.description {
+  background-color: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.description__title {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.description__main {
+  display: flex;
+}
+
+.description__main__content {
+  margin-right: 180px;
+}
+
+.description__main__content:first-child {
+  margin-left: 125px;
+}
+
+.description__main  img {
+  display: block;
+}
+
+.description__main  p {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+. {
+
+}
+
+. {
+
+}
+
+. {
+
+}
+
+. {
+ 
+  
+}
