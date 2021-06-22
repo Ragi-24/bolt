@@ -4,19 +4,16 @@
   clear: both;
 }
 
- .basic-option {
-  background-color: #000;
+.basic-option {
+  font-family: 'Lato';
   margin: 0 auto;
   width: 1100px;
-} 
-
-.body {
-  font-family: 'Lato', 'Raleway';
 }
 
 .inner {
   box-sizing: border-box;
-  padding: 0 200px;
+  margin: 0 auto;
+  width: 1100px;
 }
 
 /* header */
@@ -26,6 +23,11 @@
   height: 70px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.is-fixed {
+  position: fixed;
+  z-index: 1;
 }
 
 .header__icon-bolt {
@@ -39,8 +41,9 @@
   color: #fff;
   float: right;
   font-size: 12px;
-  margin-left: 250px;
+  /* margin-right: 100px; */
   padding: 14px 12px;
+  text-decoration: none;
   transition: 0.3s;
 }
 
@@ -61,7 +64,8 @@ a:hover.header__contact-box {
   color: #74cfae;
   font-size: 90px;
   font-weight: 700;
-  margin: 0 auto 20px;
+  margin: 0 auto;
+  padding-bottom: 20px;
   text-align: center;
 }
 
@@ -89,6 +93,10 @@ a:hover.header__contact-box {
   text-align: center;
 }
 
+.theme-text {
+  font-family: 'Raleway';
+}
+
 .caption__wwcd__sentence {
   color: #fff;
   font-size: 20px;
@@ -99,8 +107,7 @@ a:hover.header__contact-box {
 /* main__photos */
 .photos {
   background-color: #f2f2f2;
-  padding-top: 60px;
-  padding-bottom: 70px;
+  padding: 60px 0 70px;
 }
 
 .photos__title {
@@ -153,6 +160,10 @@ a:hover.photos__main__robot img {
   margin: 0 100px;
 }
 
+.photos__description {
+  padding: 0 150px 0 90px; 
+}
+
 .photos__email-send-box {
   background-color: #74cfae;
   color: #fff;
@@ -160,6 +171,7 @@ a:hover.photos__main__robot img {
   font-size: 12px;
   margin-left: 90px;
   padding: 14px 20px;
+  text-decoration: none;
   transition: 0.3s;
 }
 
