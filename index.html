@@ -14,8 +14,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"> 
   </head>
   <body class="basic-option">
-    <header>
-      <div class="header inner clearfix is-fixed">
+    <header class="header is-fixed">
+      <div class="inner header__inner clearfix">
         <i class="fas fa-bolt header__icon-bolt"></i>
         <a class="header__contact-box" href="">
           Contact
@@ -23,15 +23,39 @@
       </div>
     </header>
     <main>
-      <div class="theme inner">
-        <div class="theme__main">
+      <div class="theme">
+        <div class="inner theme__inner">
+          <h1 class="theme__main">
+            Bolt Theme
+          </h1>
+          <p class="theme__sub">
+            FREE BOOTSTRAP THEMES
+          </p>
+        </div>
+        <!-- <div class=" theme__main inner">
           Bolt Theme
         </div>
-        <div class="theme__sub">
+        <div class="theme__sub inner">
           FREE BOOTSTRAP THEMES
-        </div>
+        </div> -->
       </div>
       <section class="caption">
+        <div class="inner caption__inner">
+          <div class="caption__iphone-img">
+            <img src="./img/iphone.png" alt="">
+          </div>
+          <h2 class="caption__wwcd__title theme-text">
+              WHAT WE CAN DO?
+          </h2>
+          <p class="caption__wwcd__sentence">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book
+          </p>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="caption">
         <div class="clearfix">
           <img class="caption__iphone-img" src="./img/iphone.png" alt="">
           <div class="caption__wwcd">
@@ -43,9 +67,9 @@
             </p>
           </div>
         </div>
-      </section>
+      </section> -->
       <article class="photos">
-        <div>
+        <div class="photos__inner inner">
           <h1 class="photos__title theme-text">
             OUR LATEST WORK
           </h1>
@@ -67,11 +91,34 @@
           </div>
         </div>
       </article>
-      <section class="description">
+      <!-- <article class="photos">
         <div>
-          <h1 class="description__title theme-text">
-            OUR SKILLS
+          <h1 class="photos__title theme-text">
+            OUR LATEST WORK
           </h1>
+          <div class="photos__main">
+            <a class="photos__main__triangle" href=""><img src="./img/01.jpg" alt=""></a>
+            <a class="photos__main__giant" href=""><img src="./img/02.jpg" alt=""></a>
+            <a class="photos__main__infinite" href=""><img src="./img/03.jpg" alt=""></a>
+            <a class="photos__main__icons" href=""><img src="./img/04.jpg" alt=""></a>
+            <a class="photos__main__earth" href=""><img src="./img/05.jpg" alt=""></a>
+            <a class="photos__main__robot" href=""><img src="./img/06.jpg" alt=""></a>
+          </div>
+          <div class="photos__description inner clearfix">
+            <a class="photos__email-send-box" href="">
+              Email Me!
+            </a>
+            <p class="photos__sentence">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
+            </p>
+          </div>
+        </div>
+      </article> -->
+      <section class="description">
+        <div class="inner">
+          <h2 class="description__title theme-text">
+            OUR SKILLS
+          </h2>
           <div class="description__main">
             <div class="description__main__content">
               <img src="./img/circle_01.png" alt="">
@@ -101,20 +148,24 @@
         </div>
       </section>
       <nav class="sns">
-        <div>
-          <a class="sns__fb" href=""><i class="fab fa-facebook-f sns__icon"></i>
+        <div class="inner sns__inner">
+          <a class="sns__fb" href="">
+            <i class="fab fa-facebook-f sns__icon"></i>
           </a>
-          <a class="sns__bb" href=""><i class="fab fa-dribbble sns__icon"></i>
+          <a class="sns__bb" href="">
+            <i class="fab fa-dribbble sns__icon"></i>
           </a>
-          <a class="sns__tw" href=""><i class="fab fa-twitter sns__icon"></i>
+          <a class="sns__tw" href="">
+            <i class="fab fa-twitter sns__icon"></i>
           </a>
-          <a class="sns__en" href=""><i class="fas fa-envelope sns__icon"></i>
+          <a class="sns__en" href="">
+            <i class="fas fa-envelope sns__icon"></i>
           </a>
         </div>
       </nav>
     </main>
-    <footer>
-      <div class="footer inner">
+    <footer class="footer">
+      <div class="footer__inner inner">
         <p class="footer__co">
           Crafted with♥by BlackTie.co.
         </p>
